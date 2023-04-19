@@ -1,5 +1,5 @@
 // Implement a binary search function that takes an array of integers and a target 
-// integer as inputs, and returns trueif the target exists in the array and 
+// integer as inputs, and returns true if the target exists in the array and 
 // false otherwise.
 
 function Binary(array,target) {

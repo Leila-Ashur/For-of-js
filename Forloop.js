@@ -88,7 +88,31 @@ console.log(array)
     }}
    console.log(max)
 
+//    Write function that take two arrays as input and returns a new array with.
+   //The element that are common to both arrays   
+
+   function both(array1,array2) {
+    for (let z = 0; z < array.length; z++) {
+        consol.log(array1[z]);
+
+        for (let q = 0; q < array.length; q++) {
+            consol.log( array[q]);
+            
+        }
+        
+    }
+    const empty=[]
+    if(array1[z]===array2[q]){ 
+    empty.push(array1[z])
+    }
+    return empty
+
     
+   }
+   let array1=[,3,4,3,3.4,5,6]
+   let array2=[3,4,3,,6,7,5,4,3]
+   var same= both(array1,array2)
+   consol.log(same)
 
 
 
